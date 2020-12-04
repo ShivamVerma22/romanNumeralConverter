@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
 :root{
-    --primary-color:#7D704D;
+    --primary-color:#b89944;
     --off-white:#F3F4F6;
     --secondary: #211D1A;
 }
@@ -48,6 +48,12 @@ main{
     min-height: 20vh;
     resize: none;
     padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.input-text::placeholder{
+    font-size: 1.2rem;
 }
 
 .btn-translate{
@@ -57,7 +63,7 @@ main{
     font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 1.5px;
-    border: 1px solid black;
+    border: 1px solid #fff;
     outline: none;
     color: #fff;
 }
@@ -78,7 +84,9 @@ main{
     padding: 1rem;
     margin-bottom: 2rem;
     font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 }
 
 footer{
